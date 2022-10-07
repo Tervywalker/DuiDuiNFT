@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import Script from 'next/script'
 import Marquee from 'react-fast-marquee'
 
 export default function Home() {
@@ -9,10 +10,10 @@ export default function Home() {
       <Head>
         <title>DuiDui</title>
         <meta name="description" content='Testing Demo' />
-        <link rel="icon" href="/image/ICON.png" />
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <link rel="icon" href="/image/ICON.png" />        
       </Head>
+      <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
+        <Script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
 
       <video
             src="/video/Final_audio_length.mp4" muted loop autoPlay
@@ -42,11 +43,12 @@ export default function Home() {
 
             <ul className="flex items-center space-x-4 md:flex md:items-center md:z-auto md:static absolute md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0">
               <li className='cursor-pointer'>
-                <a href="/mint"
-                className="font-coiny uppercase inline-flex items-center px-6 oy-2 text-sm sm:text-2xl md:text-3xl font-medium text-center rounded text-rose-500 hover:bg-rose-600 hover:text-white"
+                <Link href="/mint">
+                <a className="font-coiny uppercase inline-flex items-center px-6 oy-2 text-sm sm:text-2xl md:text-3xl font-medium text-center rounded text-rose-500 hover:bg-rose-600 hover:text-white"
                 >
-                Mint           
-                </a>
+                Mint
+                </a>           
+                </Link>
               </li>
 
               <li className="cursor-pointer">
@@ -106,23 +108,23 @@ export default function Home() {
               <li>
                 <a 
                   href="#_" 
-                  class="relative inline-flex items-center justify-center p-2 px-2 py-2 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-purple-500 rounded-full shadow-md group"
+                  className="relative inline-flex items-center justify-center p-2 px-2 py-2 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-purple-500 rounded-full shadow-md group"
                 >
                 <span 
-                  class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-purple-500 group-hover:translate-x-0 ease">
+                  className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-purple-500 group-hover:translate-x-0 ease">
                   <svg 
-                    class="w-6 h-6" 
+                    className="w-6 h-6" 
                     fill="none" 
                     stroke="currentColor" 
                     viewBox="0 0 24 24" 
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
+                    <path>
                     </path>
                   </svg>
                 </span>
-                <span class="absolute flex items-center justify-center w-full h-full text-purple-500 transition-all duration-300 transform group-hover:translate-x-full ease">Music OFF</span>
-                <span class="relative invisible">Button Text</span>
+                <span className="absolute flex items-center justify-center w-full h-full text-purple-500 transition-all duration-300 transform group-hover:translate-x-full ease">Music OFF</span>
+                <span className="relative invisible">Button Text</span>
                 </a>
               </li>
 
