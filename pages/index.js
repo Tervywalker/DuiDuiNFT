@@ -136,7 +136,7 @@ export default function Home() {
       <div className="h-full w-full container max-w-srceen mx-auto flex flex-col items-center pt-1 z-10">
         <div className="flex flex-row items-center max-w-8xl w-full">
           <img
-            src='/image/background1.svg'
+            src='/image/Picture1.jpg'
           />
           {/*<Link href="/mint" passHref>
             <a className="mt-16 font-coiny uppercase inline-flex items-center px-6 oy-2 text-sm sm:text-2xl md:text-3xl font-medium text-center rounded text-rose-500 hover:bg-rose-600 hover:text-white">
