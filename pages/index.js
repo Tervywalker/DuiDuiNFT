@@ -361,7 +361,7 @@ export default function Home() {
                   <img src='/image/Zhihao.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
                     <span className='font-bold'>Discord Expert - Resita</span>
-                    <span className='block text-gray-500 text-sm'>Hi folks, I'm Nam and I come from VietNam. I'm here to make us more secure, safer. And of course, no one can hack us with me!</span>
+                    <span className='block text-gray-500 text-sm'>Detail</span>
                   </div>
                 </div>
               </div>
