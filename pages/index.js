@@ -330,14 +330,14 @@ export default function Home() {
                   <img src='/image/Ken.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
                     <span className='font-bold'>NFT Artist - Ken</span>
-                    <span className='block text-gray-500 text-sm'>Detail</span>
+                    <span className='block text-gray-500 text-sm'>My name is Ken, and I am a DuiDui NFT artist. My area of interest is the production of NFT arts. Graphic designer, illustrator, and Photoshop ace nine years of professional experience. I genuinely hope that everyone will enjoy the DuiDui realm!</span>
                   </div>
                 </div>
                 <div className='card'>
                   <img src='/image/Tervy.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
                     <span className='font-bold'>Developer - Walker</span>
-                    <span className='block text-gray-500 text-sm'>Detail</span>
+                    <span className='block text-gray-500 text-sm'>Full Stack Developer, 6 years of programming background Engineer specialising blockchain and NFT. Surfing to the new_world, Exploring the opportunity. Have fun!!</span>
                   </div>
                 </div>
               </div>
@@ -347,21 +347,21 @@ export default function Home() {
                   <img src='/image/Molly.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
                     <span className='font-bold'>Marketing Specialist - Bill</span>
-                    <span className='block text-gray-500 text-sm'>Detail</span>
+                    <span className='block text-gray-500 text-sm'>It is always fascinating to achieve the intersection of virtual and real. Promotion is an art, looking forward to your participation. An enthusiastic follower of DuiDui.</span>
                   </div>
                 </div>
                 <div className='card'>
                   <img src='/image/Resita.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
                     <span className='font-bold'>Community Manager - FlippingJpeg</span>
-                    <span className='block text-gray-500 text-sm'>Detail</span>
+                    <span className='block text-gray-500 text-sm'>Hey FlippingJpeg here, first entered into the space the intentions to make some money but have since stayed on to hopefully help and develop the space into more than just Jpegs.</span>
                   </div>
                 </div>
                 <div className='card'>
                   <img src='/image/Zhihao.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
                     <span className='font-bold'>Discord Expert - Resita</span>
-                    <span className='block text-gray-500 text-sm'>Detail</span>
+                    <span className='block text-gray-500 text-sm'>Hi folks, I am Nam and I come from VietNam. I am here to make us more secure, safer. And of course, no one can hack us_with me!</span>
                   </div>
                 </div>
               </div>
