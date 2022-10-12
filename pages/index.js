@@ -320,7 +320,7 @@ export default function Home() {
                   <img src='/image/Aaron.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
                     <span className='font-bold'>Founder - Wallstreet</span>
-                    <span className='block text-gray-500 text-sm'>Detail</span>
+                    <span className='block text-gray-500 text-sm'>Art & Story Enthusiast. Believing that stories are at the heart of consensus and having fun is vital! DuiDui 妖精の旅 is a trip to the most magical world where anything is possible.Enjoy the journey and focus on the experience. Lets dive!</span>
                   </div>
                 </div>
               </div>
