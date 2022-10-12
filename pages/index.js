@@ -44,9 +44,9 @@ export default function Home() {
             <ul className="flex items-center space-x-4 md:flex md:items-center md:z-auto md:static absolute md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0">
               <li className='cursor-pointer'>
                 <Link href="/mint">
-                <a className="font-coiny uppercase inline-flex items-center px-6 oy-2 text-sm sm:text-2xl md:text-3xl font-medium text-center rounded text-rose-500 hover:bg-rose-600 hover:text-white"
+                <a className="font-coiny uppercase inline-flex items-center px-6 oy-2 text-sm sm:text-2xl md:text-1xl font-medium text-center rounded text-rose-500 hover:bg-rose-600 hover:text-white"
                 >
-                Mint
+                Mint soon
                 </a>           
                 </Link>
               </li>
