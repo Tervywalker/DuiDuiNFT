@@ -24,7 +24,7 @@ export default function Home() {
       <header className="min-w-full text-white py-14 px-4 md:px-0 z-40">
         <div className="flex items-center container mx-auto max-w-8xl justify-between h-full">
           {/* Logo */}
-          <Link href="#">
+          <Link href="/min.js">
             <a className="font-coiny text-xl md:text-3xl font-bold">
               <span className="bg-gradient-to-br from-brand-blue to-brand-purple pr-2 bg-clip-text text-transparent ">
                 DuiDui
