@@ -43,7 +43,7 @@ export default function Home() {
 
             <ul className="flex items-center space-x-4 md:flex md:items-center md:z-auto md:static absolute md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0">
               <li className='cursor-pointer'>
-                <Link href="#">
+                <Link href="/mint.js">
                 <a className="font-coiny uppercase inline-flex items-center px-6 oy-2 text-sm sm:text-2xl md:text-1xl font-medium text-center rounded text-rose-500 hover:bg-rose-600 hover:text-white"
                 >
                 Mint soon
@@ -320,7 +320,7 @@ export default function Home() {
                   <img src='/image/Aaron.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
                     <span className='font-bold'>Founder - Wallstreet</span>
-                    <span className='block text-gray-500 text-sm'>Art & Story Enthusiast. Believing that stories are at the heart of consensus and having fun is vital! DuiDui 妖精の旅 is a trip to the most magical world where anything is possible. Enjoy this journey and focus on the experience. Let's dive in!</span>
+                    <span className='block text-gray-500 text-sm'>Detail</span>
                   </div>
                 </div>
               </div>
