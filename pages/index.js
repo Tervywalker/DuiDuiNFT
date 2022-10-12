@@ -329,14 +329,14 @@ export default function Home() {
                 <div className='card'>
                   <img src='/image/Ken.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
-                    <span className='font-bold'>Artist</span>
+                    <span className='font-bold'>NFT Artist - Ken</span>
                     <span className='block text-gray-500 text-sm'>Detail</span>
                   </div>
                 </div>
                 <div className='card'>
                   <img src='/image/Tervy.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
-                    <span className='font-bold'>Developer</span>
+                    <span className='font-bold'>Developer - Walker</span>
                     <span className='block text-gray-500 text-sm'>Detail</span>
                   </div>
                 </div>
@@ -346,22 +346,22 @@ export default function Home() {
                 <div className='card'>
                   <img src='/image/Molly.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
-                    <span className='font-bold'>Marketing Specialist</span>
+                    <span className='font-bold'>Marketing Specialist - Bill</span>
                     <span className='block text-gray-500 text-sm'>Detail</span>
                   </div>
                 </div>
                 <div className='card'>
                   <img src='/image/Resita.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
-                    <span className='font-bold'>Community Manager</span>
+                    <span className='font-bold'>Community Manager - FlippingJpeg</span>
                     <span className='block text-gray-500 text-sm'>Detail</span>
                   </div>
                 </div>
                 <div className='card'>
                   <img src='/image/Zhihao.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
-                    <span className='font-bold'>Discord Expert</span>
-                    <span className='block text-gray-500 text-sm'>Detail</span>
+                    <span className='font-bold'>Discord Expert - Resita</span>
+                    <span className='block text-gray-500 text-sm'>Hi folks, I'm Nam and I come from VietNam. I'm here to make us more secure, safer. And of course, no one can hack us with me!</span>
                   </div>
                 </div>
               </div>
