@@ -315,7 +315,7 @@ export default function Home() {
                 Team Info      
               </h2>
 
-              <div className='mt-8 grid lg:grid-cols-1 item-cneter justifly-center'>
+              <div className='mt-8 grid lg:grid-cols-3 gap-10'>
                 <div className='card'>
                   <img src='/image/Aaron.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
@@ -325,7 +325,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className='mt-8 grid lg:grid-cols-2 gap-10'>
+              <div className='mt-8 grid lg:grid-cols-3 gap-10'>
                 <div className='card'>
                   <img src='/image/Ken.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
@@ -338,6 +338,13 @@ export default function Home() {
                   <div className='m-4'>
                     <span className='font-bold'>Developer - Walker</span>
                     <span className='block text-gray-500 text-sm'>Full Stack Developer, 6 years of programming background Engineer specialising blockchain and NFT. Surfing to the new_world, Exploring the opportunity. Have fun!!</span>
+                  </div>
+                </div>
+                <div className='card'>
+                  <img src='/image/Bonnie.png' className='w-full h-80 sm:h-80 object-cover'></img>
+                  <div className='m-4'>
+                    <span className='font-bold'>Mkt Lead & Storysteller - Bonnie</span>
+                    <span className='block text-gray-500 text-sm'>Online content curator and AI data scientist at web2, now full-time at the web3 space to tell stories and love NFTs. Read one novel every week and write a thousand words every day. Believe that NFT can present stories value, depth and future.</span>
                   </div>
                 </div>
               </div>
