@@ -323,6 +323,20 @@ export default function Home() {
                     <span className='block text-gray-500 text-sm'>Art & Story Enthusiast. Believing that stories are at the heart of consensus and having fun is vital! DuiDui 妖精の旅 is a trip to the most magical world where anything is possible.Enjoy the journey and focus on the experience. Lets dive!</span>
                   </div>
                 </div>
+                <div className='card'>
+                  <img src='/image/Cent.png' className='w-full h-80 sm:h-80 object-cover'></img>
+                  <div className='m-4'>
+                    <span className='font-bold'>Marketing Specialist - Bill</span>
+                    <span className='block text-gray-500 text-sm'>It is always fascinating to achieve the intersection of virtual and real. Promotion is an art, looking forward to your participation. An enthusiastic follower of DuiDui.</span>
+                  </div>
+                </div>
+                <div className='card'>
+                  <img src='/image/Jianhui.png' className='w-full h-80 sm:h-80 object-cover'></img>
+                  <div className='m-4'>
+                    <span className='font-bold'>Community manager - FlippingJpeg</span>
+                    <span className='block text-gray-500 text-sm'>Hey FlippingJpeg here, first entered into the space to make some money but have since stayed on to hopefully help and develop the space into more than just Jpegs.</span>
+                  </div>
+                </div>
               </div>
 
               <div className='mt-8 grid lg:grid-cols-3 gap-10'>
@@ -336,7 +350,7 @@ export default function Home() {
                 <div className='card'>
                   <img src='/image/Tervy.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
-                    <span className='font-bold'>Developer - Walker</span>
+                    <span className='font-bold'>Engineer - Walker</span>
                     <span className='block text-gray-500 text-sm'>Full Stack Developer, 6 years of programming background Engineer specialising blockchain and NFT. Surfing to the new_world, Exploring the opportunity. Have fun!!</span>
                   </div>
                 </div>
