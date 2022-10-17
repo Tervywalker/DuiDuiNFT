@@ -406,11 +406,11 @@ export default function Home() {
         </div>
       </div>
 
-      <footer className="min-w-full text-white py-14 px-4 md:px-0 z-40 item-center justify-center text-center">
+{/*<footer className="min-w-full text-white py-14 px-4 md:px-0 z-40 item-center justify-center text-center">
         <h3 className='uppercase'>
           Copyright © 2022 DuiDui™ | All rights reserved.
         </h3>
-      </footer> 
+      </footer> */}
           
    </div>
    
