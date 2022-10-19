@@ -5,8 +5,13 @@ import Script from 'next/script'
 import Marquee from 'react-fast-marquee'
 import React, { useState } from 'react'
 
+function useOpen() {
+    const [open, setOpen] = useState(false);
+    return [open, setOpen];
+}
+
 export default function Home() {
-  const [open, setOpen] = useState(false); 
+  const [open, setOpen] = useOpen(); 
   
   return (
     <div className="min-h-screen h-full w-full flex flex-col bg-brand-background overflow-hidden">
