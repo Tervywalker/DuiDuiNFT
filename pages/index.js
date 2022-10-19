@@ -25,32 +25,29 @@ export default function Home() {
           </video>
 
       <header className="min-w-full text-white py-14 px-4 md:px-0 z-40">
-        <div className="flex items-center container mx-auto max-w-8xl justify-between h-full">
-          {/* Logo */}
-          <Link href="/min.js">
-            <a className="font-coiny text-xl md:text-3xl font-bold">
-              <span className="bg-gradient-to-br from-brand-blue to-brand-purple pr-2 bg-clip-text text-transparent ">
-                DuiDui
-              </span>
-              NFT
-            </a>
-          </Link>
+        <nav className='p-5 md:flex md:items-center md:justify-between'>
+          <div className="flex items-center container mx-auto max-w-8xl justify-between h-full">
+                {/* Logo */}
+            <Link href="#">
+              <a className="font-coiny text-xl md:text-3xl font-bold">
+                <span className="bg-gradient-to-br from-brand-blue to-brand-purple pr-2 bg-clip-text text-transparent ">
+                  DuiDui
+                </span>
+                  NFT
+              </a>
+             </Link>
 
-          {/* Opensea Twitter Discord Links */}
-          <nav aria-label="Contact Menu">
-            <div className='flex justify-between items-center'>
-              <span className='text-3xl cursor-pointer md:hidden block z-50'>
-                <ion-icon name='menu'></ion-icon>
-              </span>
-            </div>
+             <span className='text-3xl mx-2 cursor-pointer md:hidden block' onClick={() => setOpen(!open)}>
+               <ion-icon name='menu'></ion-icon>
+             </span>
+           </div>
 
-            <ul className="flex items-center space-x-4 md:flex md:items-center md:z-auto md:static absolute md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0">
+           <ul className="md:flex md:items-center space-x-4 z-[-1] md:z-auto md:static absolute left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-4 top[-400px] transition-all ease-in duration-500">
               <li className='cursor-pointer'>
                 <Link href="#">
-                <a className="font-coiny uppercase inline-flex items-center px-6 oy-2 text-sm sm:text-2xl md:text-1xl font-medium text-center rounded text-rose-500 hover:bg-rose-600 hover:text-white"
-                >
-                Mint soon
-                </a>           
+                  <a className="font-coiny uppercase inline-flex items-center px-6 oy-2 text-sm sm:text-2xl md:text-1xl font-medium text-center rounded text-rose-500 hover:bg-rose-600 hover:text-white">
+                    Mint soon
+                  </a>           
                 </Link>
               </li>
 
@@ -130,10 +127,8 @@ export default function Home() {
                 <span className="relative invisible">Button Text</span>
                 </a>
               </li>
-
             </ul>
           </nav>
-        </div>
       </header>
 
       <div className="h-full w-full container max-w-srceen mx-auto flex flex-col items-center pt-1 z-10">
