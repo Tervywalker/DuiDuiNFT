@@ -3,8 +3,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Script from 'next/script'
 import Marquee from 'react-fast-marquee'
+import React, { useState } from 'react'
 
 export default function Home() {
+  const [open, setOpen] = useState(false); 
+  
   return (
     <div className="min-h-screen h-full w-full flex flex-col bg-brand-background overflow-hidden">
       <Head>
