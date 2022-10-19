@@ -47,8 +47,8 @@ export default function Home() {
              </span>
            </div>
 
-           <ul className={`${open ? 'block' : 'hidden'} md:flex md:items-center space-x-4 z-[-1] md:z-auto md:static absolute left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-4 top[-400px] transition-all duration-500`}>
-              <li className='cursor-pointer'>
+          <ul className={`${open ? 'block' : 'hidden'} md:flex md:items-center space-x-4 z-[-1] md:z-auto md:static absolute left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-4 top[-400px] transition-all ease-in duration-500`}>
+            <li className='cursor-pointer'>
                 <Link href="#">
                   <a className="font-coiny uppercase inline-flex items-center px-6 oy-2 text-sm sm:text-2xl md:text-1xl font-medium text-center rounded text-rose-500 hover:bg-rose-600 hover:text-white">
                     Mint soon
@@ -56,7 +56,7 @@ export default function Home() {
                 </Link>
               </li>
 
-              <li className="cursor-pointer">
+              <li className="cursor-pointer  my-3 md:my-0">
                 <a href="https://opensea.io" target="_blank" rel="noreferrer">
                   <svg
                     className="w-6 h-6 md:w-8 md:h-8"
@@ -72,7 +72,7 @@ export default function Home() {
                 </a>
               </li>
               
-              <li className="cursor-pointer">
+              <li className="cursor-pointer my-3 md:my-0">
                 <a
                   href="https://twitter.com/DuiDuiNFT"
                   target="_blank"
@@ -91,7 +91,7 @@ export default function Home() {
                 </a>
               </li>
 
-              <li className="cursor-pointer">
+              <li className="cursor-pointer my-3 md:my-0">
                 <a
                   href="https://discord.com/invite/Pkxqb2Pkbg"
                   target="_blank"
@@ -113,7 +113,7 @@ export default function Home() {
               <li>
                 <a 
                   href="#_" 
-                  className="relative inline-flex items-center justify-center p-2 px-2 py-2 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-purple-500 rounded-full shadow-md group"
+                  className="relative inline-flex items-center justify-center p-1 px-1 py-1 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-purple-500 rounded-full shadow-md group"
                 >
                 <span 
                   className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-purple-500 group-hover:translate-x-0 ease">
