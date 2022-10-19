@@ -170,7 +170,7 @@ export default function Home() {
 
         <div className="flex flex-col items-center max-w-7xl w-full ">
           <img
-            src='/image/story.jfif'
+            src='/image/story.png'
           />
         </div>
 
