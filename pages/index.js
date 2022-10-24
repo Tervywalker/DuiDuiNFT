@@ -34,7 +34,7 @@ export default function Home() {
           <div className="flex items-center container mx-auto max-w-8xl justify-between h-full">
                 {/* Logo */}
             <Link href="#">
-              <a className="font-coiny text-xl md:text-3xl font-bold">
+              <a className="font-coiny text-2xl md:text-3xl font-bold">
                 <span className="bg-gradient-to-br from-brand-blue to-brand-purple pr-2 bg-clip-text text-transparent ">
                   DuiDui
                 </span>
