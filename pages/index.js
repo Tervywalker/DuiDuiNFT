@@ -329,15 +329,15 @@ export default function Home() {
                 <div className='card'>
                   <img src='/image/Cent.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
-                    <span className='font-bold'>Marketing Specialist - Bill</span>
+                    <span className='font-bold'>Project Manager - Cent</span>
                     <span className='block text-gray-500 text-sm'>It is always fascinating to achieve the intersection of virtual and real. Promotion is an art, looking forward to your participation. An enthusiastic follower of DuiDui.</span>
                   </div>
                 </div>
                 <div className='card'>
-                  <img src='/image/Jianhui.png' className='w-full h-80 sm:h-80 object-cover'></img>
+                  <img src='/image/Zhihao.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
-                    <span className='font-bold'>Community manager - FlippingJpeg</span>
-                    <span className='block text-gray-500 text-sm'>Hey FlippingJpeg here, first entered into the space to make some money but have since stayed on to hopefully help and develop the space into more than just Jpegs.</span>
+                    <span className='font-bold'>Designer - Zhihao</span>
+                    <span className='block text-gray-500 text-sm'>An illustrator who specialises art to the crypto world. Keen on NFT art and the web 3 space. Hope my illustration works bridge web2 world and web3 space, spark and resonate each other.</span>
                   </div>
                 </div>
               </div>
@@ -358,7 +358,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className='card'>
-                  <img src='/image/Bonnie.png' className='w-full h-80 sm:h-80 object-cover'></img>
+                  <img src='/image/Molly.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
                     <span className='font-bold'>Mkt Lead & Storysteller - Bonnie</span>
                     <span className='block text-gray-500 text-sm'>Online content curator and AI data scientist at web2, now full-time at the web3 space to tell stories and love NFTs. Read one novel every week and write a thousand words every day. Believe that NFT can present stories value, depth and future.</span>
@@ -368,21 +368,21 @@ export default function Home() {
                 
               <div className='mt-8 grid lg:grid-cols-3 gap-10'>
                 <div className='card'>
-                  <img src='/image/Molly.png' className='w-full h-80 sm:h-80 object-cover'></img>
+                  <img src='/image/Bear.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
                     <span className='font-bold'>Marketing Specialist - Bill</span>
                     <span className='block text-gray-500 text-sm'>It is always fascinating to achieve the intersection of virtual and real. Promotion is an art, looking forward to your participation. An enthusiastic follower of DuiDui.</span>
                   </div>
                 </div>
                 <div className='card'>
-                  <img src='/image/Resita.png' className='w-full h-80 sm:h-80 object-cover'></img>
+                  <img src='/image/Jianhui.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
                     <span className='font-bold'>Community Manager - FlippingJpeg</span>
                     <span className='block text-gray-500 text-sm'>Hey FlippingJpeg here, first entered into the space the intentions to make some money but have since stayed on to hopefully help and develop the space into more than just Jpegs.</span>
                   </div>
                 </div>
                 <div className='card'>
-                  <img src='/image/Zhihao.png' className='w-full h-80 sm:h-80 object-cover'></img>
+                  <img src='/image/Resita.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
                     <span className='font-bold'>Discord Expert - Resita</span>
                     <span className='block text-gray-500 text-sm'>Hi folks, I am Nam and I come from VietNam. I am here to make us more secure, safer. And of course, no one can hack us_with me!</span>
