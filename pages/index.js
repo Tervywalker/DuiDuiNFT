@@ -29,7 +29,7 @@ export default function Home() {
           >
           </video>
 
-      <header className="min-w-full text-white py-14 px-4 md:px-0 z-40">
+      <header className="min-w-full text-white py-4 md:py-14 px-4 md:px-0 z-40">
         <nav className='p-5 md:flex md:items-center md:justify-between'>
           <div className="flex items-center container mx-auto max-w-8xl justify-between h-full">
                 {/* Logo */}
@@ -56,7 +56,7 @@ export default function Home() {
                 </Link>
               </li>
 
-              <li className="cursor-pointer  my-3 md:my-0">
+              <li className="cursor-pointer my-3 md:my-0">
                 <a href="https://opensea.io" target="_blank" rel="noreferrer">
                   <svg
                     className="w-6 h-6 md:w-8 md:h-8"
