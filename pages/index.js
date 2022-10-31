@@ -29,7 +29,7 @@ export default function Home() {
           >
           </video>
 
-      <header className="min-w-full text-white py-14 md:py-4 px-4 md:px-0 z-40">
+      <header className="min-w-full text-white py-10 md:py-4 px-5 md:px-10 z-40">
         <nav className='p-5 md:flex md:items-center md:justify-between'>
           <div className="flex items-center container mx-auto max-w-8xl justify-between h-full">
                 {/* Logo */}
