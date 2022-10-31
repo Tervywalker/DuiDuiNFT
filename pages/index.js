@@ -24,7 +24,7 @@ export default function Home() {
         <Script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
 
       <video
-            src="/video/Header_Video.mp4" loop autoPlay
+            src="/video/Header_Video.mp4" muted autoPlay loop
             className="fixed -Z-10 inset-auto max-w-full w-full min-h-screen object-cover opacity-30"
           >
           </video>
@@ -34,7 +34,7 @@ export default function Home() {
           <div className="flex items-center container mx-auto max-w-8xl justify-between h-full">
                 {/* Logo */}
             <Link href="#">
-              <a className="font-coiny text-2xl md:text-4xl font-bold">
+              <a className="font-coiny text-2xl md:text-3xl font-bold">
                 <span className="bg-gradient-to-br from-brand-blue to-brand-purple pr-2 bg-clip-text text-transparent ">
                   DuiDui
                 </span>
@@ -47,7 +47,7 @@ export default function Home() {
              </span>
            </div>
 
-          <ul className='md:flex md:items-center space-x-4 z-[-1] md:z-auto md:static absolute right-0 md:w-auto md:py-0 py-4 md:pl-0 pl-4 top[-400px] transition-all ease-in duration-500'>
+          <ul className={`${open ? 'block' : 'hidden'} bg-gray-900/80 md:flex md:items-center space-x-4 z-[-1] md:z-auto md:static absolute right-0 md:w-auto md:py-0 py-4 md:pl-0 pl-4 top[-400px] transition-all ease-in duration-500`}>
             <li className='cursor-pointer'>
                 <Link href="#">
                   <a className="font-coiny uppercase inline-flex items-center px-6 oy-2 text-sm sm:text-2xl md:text-1xl font-medium text-center rounded text-rose-500 hover:bg-rose-600 hover:text-white">
@@ -93,7 +93,7 @@ export default function Home() {
 
               <li className="cursor-pointer my-3 md:my-0">
                 <a
-                  href="https://t.co/D2MEGdsvRQ"
+                  href="https://discord.com/invite/Pkxqb2Pkbg"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -113,22 +113,13 @@ export default function Home() {
               <li>
                 <a 
                   href="#_" 
-                  className="relative inline-flex items-center justify-center p-1 px-1 py-1 overflow-hidden font-medium text-center text-indigo-600 transition duration-300 ease-out border-2 border-purple-500 rounded-full shadow-md group"
+                  className="relative inline-flex items-center justify-center p-2 px-1 py-1 overflow-hidden font-medium text-indigo-600 text-center transition duration-300 ease-out border-2 border-purple-500 rounded-full shadow-md group"
                 >
                 <span 
                   className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-purple-500 group-hover:translate-x-0 ease">
-                  <svg 
-                    className="w-6 h-6" 
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24" 
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path>
-                    </path>
-                  </svg>
+                  <ion-icon name="volume-medium-outline"></ion-icon>
                 </span>
-                <span className="absolute flex items-center justify-center w-full h-full text-purple-500 transition-all duration-300 transform group-hover:translate-x-full ease">Music OFF</span>
+                <span className="absolute flex items-center justify-center w-full h-full text-purple-500 transition-all duration-300 transform group-hover:translate-x-full ease"><ion-icon name="volume-mute-outline"></ion-icon></span>
                 <span className="relative invisible">Button Text</span>
                 </a>
               </li>
@@ -139,28 +130,8 @@ export default function Home() {
       <div className="h-full w-full container max-w-srceen mx-auto flex flex-col items-center pt-1 z-10">
         <div className="flex flex-row items-center max-w-8xl w-full">
           <img
-            src='/image/Background1.svg'
+            src='/image/cover.svg'
           />
-          {/*<Link href="/mint" passHref>
-            <a className="mt-16 font-coiny uppercase inline-flex items-center px-6 oy-2 text-sm sm:text-2xl md:text-3xl font-medium text-center rounded text-rose-500 hover:bg-rose-600 hover:text-white">
-              Go to minting page              
-            </a>
-          </Link>
-
-          <div className="flex flex-col md:flex-row md:space-x-16 space-y-10 items-center mt-20 w-full">
-            {/*Image 
-            <img
-              src="/images/9.png"
-              className="w-64 h-64 rounded-md object-cover"
-            />
-
-            <div className="flex flex-col md:items-start items-center justify-center text-center font-coiny text-gray-800 px-4 md:px-0 py-10 mt-14">
-              <h2 className="font-bold text-2xl md:text-4xl uppercase">
-                About DuiDui
-              </h2>
-            </div>
-          {/*</div>*/}         
-          
         </div>
 
         <div className="flex flex-col items-center max-w-5xl w-full ">
@@ -327,34 +298,10 @@ export default function Home() {
                   </div>
                 </div>
                 <div className='card'>
-                  <img src='/image/Cent.png' className='w-full h-80 sm:h-80 object-cover'></img>
-                  <div className='m-4'>
-                    <span className='font-bold'>Project Manager - Cent</span>
-                    <span className='block text-gray-500 text-sm'>It is always fascinating to achieve the intersection of virtual and real. Promotion is an art, looking forward to your participation. An enthusiastic follower of DuiDui.</span>
-                  </div>
-                </div>
-                <div className='card'>
-                  <img src='/image/Zhihao.png' className='w-full h-80 sm:h-80 object-cover'></img>
-                  <div className='m-4'>
-                    <span className='font-bold'>Designer - Zhihao</span>
-                    <span className='block text-gray-500 text-sm'>An illustrator who specialises art to the crypto world. Keen on NFT art and the web 3 space. Hope my illustration works bridge web2 world and web3 space, spark and resonate each other.</span>
-                  </div>
-                </div>
-              </div>
-
-              <div className='mt-8 grid lg:grid-cols-3 gap-10'>
-                <div className='card'>
                   <img src='/image/Ken.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
                     <span className='font-bold'>NFT Artist - Ken</span>
                     <span className='block text-gray-500 text-sm'>My name is Ken, and I am a DuiDui NFT artist. My area of interest is the production of NFT arts. Graphic designer, illustrator, and Photoshop ace nine years of professional experience. I genuinely hope that everyone will enjoy the DuiDui realm!</span>
-                  </div>
-                </div>
-                <div className='card'>
-                  <img src='/image/Tervy.png' className='w-full h-80 sm:h-80 object-cover'></img>
-                  <div className='m-4'>
-                    <span className='font-bold'>Engineer - Walker</span>
-                    <span className='block text-gray-500 text-sm'>Full Stack Developer, 6 years of programming background Engineer specialising blockchain and NFT. Surfing to the new_world, Exploring the opportunity. Have fun!!</span>
                   </div>
                 </div>
                 <div className='card'>
@@ -364,16 +311,9 @@ export default function Home() {
                     <span className='block text-gray-500 text-sm'>Online content curator and AI data scientist at web2, now full-time at the web3 space to tell stories and love NFTs. Read one novel every week and write a thousand words every day. Believe that NFT can present stories value, depth and future.</span>
                   </div>
                 </div>
-              </div>
+                </div>                
                 
               <div className='mt-8 grid lg:grid-cols-3 gap-10'>
-                <div className='card'>
-                  <img src='/image/Bear.png' className='w-full h-80 sm:h-80 object-cover'></img>
-                  <div className='m-4'>
-                    <span className='font-bold'>Marketing Specialist - Bill</span>
-                    <span className='block text-gray-500 text-sm'>It is always fascinating to achieve the intersection of virtual and real. Promotion is an art, looking forward to your participation. An enthusiastic follower of DuiDui.</span>
-                  </div>
-                </div>
                 <div className='card'>
                   <img src='/image/Jianhui.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
@@ -382,10 +322,41 @@ export default function Home() {
                   </div>
                 </div>
                 <div className='card'>
+                  <img src='/image/Bear.png' className='w-full h-80 sm:h-80 object-cover'></img>
+                  <div className='m-4'>
+                    <span className='font-bold'>Marketing Specialist - Bill</span>
+                    <span className='block text-gray-500 text-sm'>It is always fascinating to achieve the intersection of virtual and real. Promotion is an art, looking forward to your participation. An enthusiastic follower of DuiDui.</span>
+                  </div>
+                </div>
+                <div className='card'>
+                  <img src='/image/Zhihao.png' className='w-full h-80 sm:h-80 object-cover'></img>
+                  <div className='m-4'>
+                    <span className='font-bold'>Designer - Zhihao</span>
+                    <span className='block text-gray-500 text-sm'>An illustrator who specialises art to the crypto world. Keen on NFT art and the web 3 space. Hope my illustration works bridge web2 world and web3 space, spark and resonate each other.</span>
+                  </div>
+                </div>                                
+              </div>
+                
+              <div className='mt-8 grid lg:grid-cols-3 gap-10'>                
+                <div className='card'>
+                  <img src='/image/Tervy.png' className='w-full h-80 sm:h-80 object-cover'></img>
+                  <div className='m-4'>
+                    <span className='font-bold'>Engineer - Walker</span>
+                    <span className='block text-gray-500 text-sm'>Full Stack Developer, 6 years of programming background Engineer specialising blockchain and NFT. Surfing to the new_world, Exploring the opportunity. Have fun!!</span>
+                  </div>
+                </div>
+                <div className='card'>
                   <img src='/image/Resita.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
                     <span className='font-bold'>Discord Expert - Resita</span>
                     <span className='block text-gray-500 text-sm'>Hi folks, I am Nam and I come from VietNam. I am here to make us more secure, safer. And of course, no one can hack us_with me!</span>
+                  </div>
+                </div>
+                <div className='card'>
+                  <img src='/image/Cent.png' className='w-full h-80 sm:h-80 object-cover'></img>
+                  <div className='m-4'>
+                    <span className='font-bold'>Project Manager - Cent</span>
+                    <span className='block text-gray-500 text-sm'>It is always fascinating to achieve the intersection of virtual and real. Promotion is an art, looking forward to your participation. An enthusiastic follower of DuiDui.</span>
                   </div>
                 </div>
               </div>
@@ -415,8 +386,7 @@ export default function Home() {
         </h3>
       </footer> */}
           
-   </div>
-   
+   </div>   
     
   )
 }
