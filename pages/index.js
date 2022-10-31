@@ -93,7 +93,7 @@ export default function Home() {
 
               <li className="cursor-pointer my-3 md:my-0">
                 <a
-                  href="https://discord.com/invite/Pkxqb2Pkbg"
+                  href="https://discord.com/invite/DuiDuiNFT"
                   target="_blank"
                   rel="noreferrer"
                 >
