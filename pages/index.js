@@ -294,21 +294,21 @@ export default function Home() {
                   <img src='/image/Aaron.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
                     <span className='font-bold'>Founder - Wallstreet</span>
-                    <span className='block text-gray-500 text-sm'>Art & Story Enthusiast. Believing that stories are at the heart of consensus and having fun is vital! DuiDui 妖精の旅 is a trip to the most magical world where anything is possible.Enjoy the journey and focus on the experience. Lets dive!</span>
+                    <span className='block text-gray-500 text-base'>Art & Story Enthusiast. Believing that stories are at the heart of consensus and having fun is vital! DuiDui 妖精の旅 is a trip to the most magical world where anything is possible.Enjoy the journey and focus on the experience. Lets dive!</span>
                   </div>
                 </div>
                 <div className='card'>
                   <img src='/image/Ken.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
                     <span className='font-bold'>NFT Artist - Ken</span>
-                    <span className='block text-gray-500 text-sm'>My name is Ken, and I am a DuiDui NFT artist. My area of interest is the production of NFT arts. Graphic designer, illustrator, and Photoshop ace nine years of professional experience. I genuinely hope that everyone will enjoy the DuiDui realm!</span>
+                    <span className='block text-gray-500 text-base'>My name is Ken, and I am a DuiDui NFT artist. My area of interest is the production of NFT arts. Graphic designer, illustrator, and Photoshop ace nine years of professional experience. I genuinely hope that everyone will enjoy the DuiDui realm!</span>
                   </div>
                 </div>
                 <div className='card'>
                   <img src='/image/Molly.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
                     <span className='font-bold'>Mkt Lead & Storysteller - Bonnie</span>
-                    <span className='block text-gray-500 text-sm'>Online content curator and AI data scientist at web2, now full-time at the web3 space to tell stories and love NFTs. Read one novel every week and write a thousand words every day. Believe that NFT can present stories value, depth and future.</span>
+                    <span className='block text-gray-500 text-base'>Online content curator and AI data scientist at web2, now full-time at the web3 space to tell stories and love NFTs. Read one novel every week and write a thousand words every day. Believe that NFT can present stories value, depth and future.</span>
                   </div>
                 </div>
                 </div>                
@@ -318,21 +318,21 @@ export default function Home() {
                   <img src='/image/Jianhui.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
                     <span className='font-bold'>Community Manager - FlippingJpeg</span>
-                    <span className='block text-gray-500 text-sm'>Hey FlippingJpeg here, first entered into the space the intentions to make some money but have since stayed on to hopefully help and develop the space into more than just Jpegs.</span>
+                    <span className='block text-gray-500 text-base'>Hey FlippingJpeg here, first entered into the space the intentions to make some money but have since stayed on to hopefully help and develop the space into more than just Jpegs.</span>
                   </div>
                 </div>
                 <div className='card'>
                   <img src='/image/Bear.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
                     <span className='font-bold'>Marketing Specialist - Bill</span>
-                    <span className='block text-gray-500 text-sm'>It is always fascinating to achieve the intersection of virtual and real. Promotion is an art, looking forward to your participation. An enthusiastic follower of DuiDui.</span>
+                    <span className='block text-gray-500 text-base'>It is always fascinating to achieve the intersection of virtual and real. Promotion is an art, looking forward to your participation. An enthusiastic follower of DuiDui.</span>
                   </div>
                 </div>
                 <div className='card'>
                   <img src='/image/Zhihao.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
                     <span className='font-bold'>Designer - Zhihao</span>
-                    <span className='block text-gray-500 text-sm'>An illustrator who specialises art to the crypto world. Keen on NFT art and the web 3 space. Hope my illustration works bridge web2 world and web3 space, spark and resonate each other.</span>
+                    <span className='block text-gray-500 text-base'>An illustrator who specialises art to the crypto world. Keen on NFT art and the web 3 space. Hope my illustration works bridge web2 world and web3 space, spark and resonate each other.</span>
                   </div>
                 </div>                                
               </div>
@@ -342,21 +342,21 @@ export default function Home() {
                   <img src='/image/Tervy.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
                     <span className='font-bold'>Engineer - Walker</span>
-                    <span className='block text-gray-500 text-sm'>Full Stack Developer, 6 years of programming background Engineer specialising blockchain and NFT. Surfing to the new_world, Exploring the opportunity. Have fun!!</span>
+                    <span className='block text-gray-500 text-base'>Full Stack Developer, 6 years of programming background Engineer specialising blockchain and NFT. Surfing to the new_world, Exploring the opportunity. Have fun!!</span>
                   </div>
                 </div>
                 <div className='card'>
                   <img src='/image/Resita.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
                     <span className='font-bold'>Discord Expert - Resita</span>
-                    <span className='block text-gray-500 text-sm'>Hi folks, I am Nam and I come from VietNam. I am here to make us more secure, safer. And of course, no one can hack us_with me!</span>
+                    <span className='block text-gray-500 text-base'>Hi folks, I am Nam and I come from VietNam. I am here to make us more secure, safer. And of course, no one can hack us_with me!</span>
                   </div>
                 </div>
                 <div className='card'>
                   <img src='/image/Cent.png' className='w-full h-80 sm:h-80 object-cover'></img>
                   <div className='m-4'>
                     <span className='font-bold'>Project Manager - Cent</span>
-                    <span className='block text-gray-500 text-sm'>It is always fascinating to achieve the intersection of virtual and real. Promotion is an art, looking forward to your participation. An enthusiastic follower of DuiDui.</span>
+                    <span className='block text-gray-500 text-base'>It is always fascinating to achieve the intersection of virtual and real. Promotion is an art, looking forward to your participation. An enthusiastic follower of DuiDui.</span>
                   </div>
                 </div>
               </div>
