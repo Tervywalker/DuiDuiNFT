@@ -33,13 +33,13 @@ export default function Home() {
         <nav className='p-5 md:flex md:items-center md:justify-between'>
           <div className="flex items-center container mx-auto max-w-8xl justify-between h-full">
                 {/* Logo */}
-            <Link href="#"
-                  className="font-coiny text-2xl md:text-4xl font-bold">
+            <Link href="#">
+              <a className="font-coiny text-2xl md:text-4xl font-bold">
                 <span className="bg-gradient-to-br from-brand-blue to-brand-purple pr-2 bg-clip-text text-transparent ">
                   DuiDui
                 </span>
                   NFT
-              
+              </a>
              </Link>
 
              <span className='text-3xl mx-2 cursor-pointer md:hidden block' onClick={() => setOpen(!open)}>
@@ -49,14 +49,14 @@ export default function Home() {
 
           <ul className={`${open ? 'block' : 'hidden'} bg-gray-900/80 md:flex md:items-center space-x-4 z-[-1] md:z-auto md:static absolute right-0 md:w-auto md:py-0 py-4 md:pl-0 pl-4 top[-400px] transition-all ease-in duration-500`}>
             <li className='cursor-pointer'>
-                <a href="#"
-                className="font-coiny uppercase inline-flex items-center px-6 oy-2 text-sm sm:text-2xl md:text-1xl font-medium text-center rounded text-rose-500 hover:bg-rose-600 hover:text-white">
+                <Link href="#">
+                  <a className="font-coiny uppercase inline-flex items-center px-6 oy-2 text-sm sm:text-2xl md:text-1xl font-medium text-center rounded text-rose-500 hover:bg-rose-600 hover:text-white">
                     Mint soon
-                            
-                </a>
+                  </a>           
+                </Link>
               </li>
 
-              <li className="cursor-pointer  my-3 md:my-0">
+              <li className="cursor-pointer my-3 md:my-0">
                 <a href="https://opensea.io" target="_blank" rel="noreferrer">
                   <svg
                     className="w-6 h-6 md:w-8 md:h-8"
@@ -93,7 +93,7 @@ export default function Home() {
 
               <li className="cursor-pointer my-3 md:my-0">
                 <a
-                  href="https://discord.com/invite/Pkxqb2Pkbg"
+                  href="https://discord.com/invite/DuiDuiNFT"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -365,12 +365,10 @@ export default function Home() {
 
         <div className="flex flex-col items-center max-w-5xl w-full h-500">          
           <video
-            src="/video/roadmap.mp4" autoPlay loop muted
+            src="/video/roadmap.mp4" muted loop autoPlay
             className="absolute inset-auto max-w-7xl w-full min-h-screen object-cover"
           >
-          </video>
-
-          
+          </video>          
 
           <div className="flex flex-col z-40 md:items-start items-center justify-center text-center font-coiny text-white px-4 md:px-0 py-5 mt-2">
             <h2 className="font-bold text-2xl md:text-4xl uppercase">
@@ -378,14 +376,7 @@ export default function Home() {
             </h2>             
           </div>
         </div>
-      </div>
-
-{/*<footer className="min-w-full text-white py-14 px-4 md:px-0 z-40 item-center justify-center text-center">
-        <h3 className='uppercase'>
-          Copyright © 2022 DuiDui™ | All rights reserved.
-        </h3>
-      </footer> */}
-          
+      </div>          
    </div>   
     
   )
