@@ -17,7 +17,7 @@ export default function Home() {
     <div className="min-h-screen h-full w-full flex flex-col bg-brand-background overflow-hidden">
       <Head>
         <title>DuiDui</title>
-        <meta name="description" content='Testing Demo' />
+        <meta name="description" content='Welcome to our world' />
         <link rel="icon" href="/image/ICON.png" />        
       </Head>
       <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
