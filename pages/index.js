@@ -12,19 +12,20 @@ function useOpen() {
 
 export default function Home() {
   const [open, setOpen] = useOpen(); 
+  const [videoMuteState, setVideoMuteState] = useState(true);
   
   return (
     <div className="min-h-screen h-full w-full flex flex-col bg-brand-background overflow-hidden">
       <Head>
-        <title>DuiDui</title>
-        <meta name="description" content='Welcome to our world' />
+        <title>Dui Dui 妖精の旅</title>
+        <meta name="description" content='Welcome to land it the Jablonski!' />
         <link rel="icon" href="/image/ICON.png" />        
       </Head>
       <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
-        <Script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
+      <Script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
 
       <video
-            src="/video/Header_Video.mp4" muted autoPlay loop
+            src="/video/Header_Video.mp4" muted={videoMuteState} autoPlay loop
             className="fixed -Z-10 inset-auto max-w-full w-full min-h-screen object-cover opacity-30"
           >
           </video>
@@ -48,13 +49,13 @@ export default function Home() {
            </div>
 
           <ul className={`${open ? 'block' : 'hidden'} bg-gray-900/80 md:flex md:items-center space-x-4 z-[-1] md:z-auto md:static absolute right-0 md:w-auto md:py-0 py-4 md:pl-0 pl-4 top[-400px] transition-all ease-in duration-500`}>
-            <li className='cursor-pointer'>
+            <li className='cursor-pointer' style={{ marginLeft: '-7px' }}>
                 <Link href="#">
                   <a className="font-coiny uppercase inline-flex items-center px-6 oy-2 text-sm sm:text-2xl md:text-1xl font-medium text-center rounded text-rose-500 hover:bg-rose-600 hover:text-white">
                     Mint soon
                   </a>           
                 </Link>
-              </li>
+            </li>
 
               <li className="cursor-pointer my-3 md:my-0">
                 <a href="https://opensea.io" target="_blank" rel="noreferrer">
@@ -110,16 +111,18 @@ export default function Home() {
                 </a>
               </li>
 
+			 { /* Mute/Unmute Video voice Icon */}
               <li>
                 <a 
-                  href="#_" 
+				  onClick={() => setVideoMuteState(!videoMuteState)}
                   className="relative inline-flex items-center justify-center p-2 px-1 py-1 overflow-hidden font-medium text-indigo-600 text-center transition duration-300 ease-out border-2 border-purple-500 rounded-full shadow-md group"
                 >
-                <span 
-                  className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-purple-500 group-hover:translate-x-0 ease">
-                  <ion-icon name="volume-medium-outline"></ion-icon>
+                <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-purple-500 group-hover:translate-x-0 ease">
+                  	<ion-icon name="volume-medium-outline"></ion-icon>
                 </span>
-                <span className="absolute flex items-center justify-center w-full h-full text-purple-500 transition-all duration-300 transform group-hover:translate-x-full ease"><ion-icon name="volume-mute-outline"></ion-icon></span>
+                <span className="absolute flex items-center justify-center w-full h-full text-purple-500 transition-all duration-300 transform group-hover:translate-x-full ease">
+					<ion-icon name="volume-mute-outline"></ion-icon>
+				</span>
                 <span className="relative invisible">Button Text</span>
                 </a>
               </li>
@@ -156,8 +159,7 @@ export default function Home() {
             </div>  
           </div>
 
-        <div className='flex max-w-screen max-h-50'>
-          <Marquee 
+		  <Marquee 
             play
             speed={100}
             gradientColor={[0,0,0]}
@@ -217,10 +219,8 @@ export default function Home() {
               ></img>
             </div>
           </Marquee>
-        </div>
 
-        <div className='flex max-w-screen max-h-50'>
-          <Marquee 
+		  <Marquee 
             play
             speed={100}
             gradientColor={[0,0,0]}
@@ -281,7 +281,6 @@ export default function Home() {
               ></img>
             </div>
           </Marquee>
-        </div>
 
         <div className="flex flex-col items-center max-w-7xl w-full ">
           <div className="flex flex-col md:items-start items-center justify-center text-center font-coiny text-white px-4 md:px-0 py-5 mt-2">
@@ -339,8 +338,8 @@ export default function Home() {
                 
               <div className='mt-8 grid lg:grid-cols-3 gap-10'>                
                 <div className='card'>
-                  <img src='/image/Tervy.png' className='w-full h-80 sm:h-80 object-cover'></img>
-                  <div className='m-4'>
+                  <img src='/image/Tervy.png' alt='Engineer Walker' className='w-full h-80 sm:h-80 object-cover' style={{ marginTop: '2rem' }}></img>
+                  <div className='m-4' style={{ marginTop: '-1rem'}}>
                     <span className='font-bold'>Engineer - Walker</span>
                     <span className='block text-gray-500 text-base'>Full Stack Developer, 6 years of programming background Engineer specialising blockchain and NFT. Surfing to the new_world, Exploring the opportunity. Have fun!!</span>
                   </div>
