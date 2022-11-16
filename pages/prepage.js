@@ -26,7 +26,7 @@ export default function Home() {
 
       <video
             src="/video/Mint Soon.mp4" muted={videoMuteState} autoPlay loop
-            className="fixed -Z-10 inset-auto max-w-full w-full min-h-screen object-cover opacity-10"
+            className="fixed -Z-10 inset-auto max-w-full w-full min-h-screen object-cover opacity-90"
           >
           </video>
 
