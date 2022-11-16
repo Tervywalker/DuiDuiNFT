@@ -34,7 +34,7 @@ export default function Home() {
         <nav className='p-5 md:flex md:items-center md:justify-between'>
           <div className="flex items-center container mx-auto max-w-8xl justify-between h-full">
                 {/* Logo */}
-            <Link href="#">
+            <Link href="/index">
               <a className="font-coiny text-2xl md:text-4xl font-bold">
                 <span className="bg-gradient-to-br from-brand-blue to-brand-purple pr-2 bg-clip-text text-transparent ">
                   DuiDui
@@ -50,7 +50,7 @@ export default function Home() {
 
           <ul className={`${open ? 'block' : 'hidden'} bg-gray-900/80 md:flex md:items-center space-x-4 z-[-1] md:z-auto md:static absolute right-0 md:w-auto md:py-0 py-4 md:pl-0 pl-4 top[-400px] transition-all ease-in duration-500`}>
             <li className='cursor-pointer' style={{ marginLeft: '-7px' }}>
-                <Link href="prepage.js">
+                <Link href="#">
                   <a className="font-coiny uppercase inline-flex items-center px-6 oy-2 text-sm sm:text-2xl md:text-1xl font-medium text-center rounded text-rose-500 hover:bg-rose-600 hover:text-white">
                     Mint soon
                   </a>           
